@@ -1,0 +1,204 @@
+form.dashboard-widget-itemmax .fields-group.fields-group-description, form.dashboard-widget-itemmax .fields-group.fields-group-value, form.dashboard-widget-itemmax .fields-group.fields-group-time, form.dashboard-widget-itemmax .fields-group.fields-group-change-indicator {
+    display: grid;
+    grid-template-columns: minmax(100px, max-content) 1fr max-content minmax(95px, max-content);
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 5px;
+}
+
+form.dashboard-widget-itemmax .fields-group.fields-group-description hr, form.dashboard-widget-itemmax .fields-group.fields-group-value hr, form.dashboard-widget-itemmax .fields-group.fields-group-time hr, form.dashboard-widget-itemmax .fields-group.fields-group-change-indicator hr {
+    grid-column: 1 / -1;
+    margin: 0;
+    width: 100%;
+    border: solid #ebeef0;
+    border-width: 1px 0 0 0;
+}
+
+form.dashboard-widget-itemmax .fields-group.fields-group-description .field-fluid, form.dashboard-widget-itemmax .fields-group.fields-group-value .field-fluid, form.dashboard-widget-itemmax .fields-group.fields-group-time .field-fluid, form.dashboard-widget-itemmax .fields-group.fields-group-change-indicator .field-fluid {
+    grid-column: 2 / -1;
+}
+
+form.dashboard-widget-itemmax .fields-group.fields-group-description .offset-3, form.dashboard-widget-itemmax .fields-group.fields-group-value .offset-3, form.dashboard-widget-itemmax .fields-group.fields-group-time .offset-3, form.dashboard-widget-itemmax .fields-group.fields-group-change-indicator .offset-3 {
+    grid-column-start: 3;
+}
+
+form.dashboard-widget-itemmax .fields-group.fields-group-description .field-size input, form.dashboard-widget-itemmax .fields-group.fields-group-value .field-size input, form.dashboard-widget-itemmax .fields-group.fields-group-time .field-size input, form.dashboard-widget-itemmax .fields-group.fields-group-change-indicator .field-size input {
+    margin-right: 5px;
+}
+
+form.dashboard-widget-itemmax .fields-group.fields-group-description .form-field, form.dashboard-widget-itemmax .fields-group.fields-group-value .form-field, form.dashboard-widget-itemmax .fields-group.fields-group-time .form-field, form.dashboard-widget-itemmax .fields-group.fields-group-change-indicator .form-field {
+    line-height: 24px;
+}
+
+form.dashboard-widget-itemmax .fields-group.fields-group-description .form-field:nth-child(1) {
+    grid-column: 1 / -1;
+}
+
+form.dashboard-widget-itemmax .fields-group.fields-group-value .units-show {
+    display: flex;
+}
+
+form.dashboard-widget-itemmax .fields-group.fields-group-value .units-show label[for='units'] {
+    width: 100%;
+}
+
+form.dashboard-widget-itemmax .fields-group.fields-group-change-indicator {
+    grid-template-columns: repeat(3, max-content 96px);
+}
+
+form.dashboard-widget-itemmax .fields-group.fields-group-change-indicator .input-color-picker {
+    display: block;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body > div {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body a {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: inherit;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body a:focus, div.dashboard-widget-itemmax .dashboard-grid-widget-body a:hover, div.dashboard-widget-itemmax .dashboard-grid-widget-body a:visited {
+    border: none;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body a > div {
+    display: flex;
+    flex: 1 1 calc(100% / 3);
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-description, div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-value, div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-time {
+    flex: 1 1 auto;
+    max-width: 100%;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-value {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-value > .units:first-child, div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-value > .units:last-child {
+    flex: 0 0 100%;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-value > .units:first-child {
+    margin-bottom: -0.07em;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-value > .units:last-child {
+    margin-top: -0.07em;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-value.type-text {
+    min-width: 0;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-value.type-text .item-value-content {
+    min-width: 0;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-value-content {
+    display: flex;
+    align-items: baseline;
+    overflow: hidden;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-description, div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-time, div.dashboard-widget-itemmax .dashboard-grid-widget-body .type-text .value {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-description, div.dashboard-widget-itemmax .dashboard-grid-widget-body .value, div.dashboard-widget-itemmax .dashboard-grid-widget-body .decimals, div.dashboard-widget-itemmax .dashboard-grid-widget-body .units, div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-time {
+    font-size: calc(var(--content-height) * var(--widget-item-font) / 1.14);
+    line-height: 1.14;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .units:not(:last-child), div.dashboard-widget-itemmax .dashboard-grid-widget-body .change-indicator:not(:last-child) {
+    margin-right: 5px;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .units:not(:first-child), div.dashboard-widget-itemmax .dashboard-grid-widget-body .change-indicator:not(:first-child) {
+    margin-left: 5px;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .svg-arrow {
+    height: calc(var(--content-height) * var(--widget-item-font) * 0.72 / 1.14);
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .item-value-no-data {
+    color: #768d99;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .left {
+    justify-content: flex-start;
+    max-width: max-content;
+    margin-right: auto;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .center {
+    justify-content: center;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .right {
+    justify-content: flex-end;
+    max-width: max-content;
+    margin-left: auto;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .top {
+    align-self: flex-start;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .middle {
+    align-self: center;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .bottom {
+    align-self: flex-end;
+}
+
+div.dashboard-widget-itemmax .dashboard-grid-widget-body .bold {
+    font-weight: bold;
+}
+
+.dashboard-widget-itemmax .svg-arrow-up {
+    fill: #3DC51D;
+}
+
+.dashboard-widget-itemmax .svg-arrow-down {
+    fill: #FC5A5A;
+}
+
+.dashboard-widget-itemmax .svg-arrow-up-down {
+    fill: #3DC51D;
+}
+
+/* Custom styles */
+.dashboard-widget-itemmax .svg-graph {
+    position: absolute;
+    z-index: 0;
+}
+
+.dashboard-widget-itemmax a {
+    z-index: 10;
+    position: relative;
+}
+.graphmax {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 10px;
+    align-items: start;
+}
+.graphmax .form-field.time-period {
+    width: 290px;
+}
