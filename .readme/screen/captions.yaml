@@ -1,0 +1,18 @@
+01-overview.png:
+  en: "A complete monitoring card combines the current value, recent trend and operating context in one dashboard widget."
+  cs: "Kompletní monitorovací karta spojuje aktuální hodnotu, nedávný trend a provozní kontext v jednom widgetu."
+02-cpu.png:
+  en: "CPU utilization is immediately readable while the background history reveals spikes and longer-term movement."
+  cs: "Využití CPU je okamžitě čitelné a historie na pozadí současně ukazuje špičky i delší vývoj."
+03-vps.png:
+  en: "A compact VPS overview keeps the most important value prominent without losing the surrounding trend."
+  cs: "Kompaktní přehled VPS zvýrazňuje nejdůležitější hodnotu a přitom zachovává její vývoj v čase."
+04-cache.png:
+  en: "Cache health and its recent history stay visible together, so a change is easy to recognize."
+  cs: "Stav cache i jeho nedávná historie zůstávají pohromadě, takže změnu snadno poznáte."
+05-queue.png:
+  en: "Queue depth is presented as an actionable dashboard signal rather than an isolated number."
+  cs: "Délka fronty je zobrazena jako srozumitelný provozní signál, ne pouze jako izolované číslo."
+06-settings.png:
+  en: "Configure the source item, value presentation, history and thresholds directly in the native Zabbix widget form."
+  cs: "Zdrojovou položku, zobrazení hodnoty, historii i prahy nastavíte přímo v nativním formuláři Zabbixu."
